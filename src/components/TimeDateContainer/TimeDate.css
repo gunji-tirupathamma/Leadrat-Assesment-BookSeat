@@ -1,0 +1,55 @@
+.datetime-cont{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.heading-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.heading-cont p{
+    font-size: 12px;
+}
+.date-type{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.date-type .date-card, .time-card{
+    width: 45%;
+    border-top: .5px solid #fff;
+    border-bottom: 0.2px solid #fff;
+}
+.date-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+.day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.day li{
+    list-style: none;
+}
+.day li:hover{
+    background-color: lightcoral;
+    transform: scale(1.05);
+}
+.day li h6{
+    font-weight: 400;
+}
+.time-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}

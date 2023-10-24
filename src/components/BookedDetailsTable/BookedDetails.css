@@ -1,0 +1,17 @@
+.table-cont{
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th{
+    border: 1px solid #e7e6e6;
+    padding: 8px;
+    background-color: blueviolet;
+    font-weight: 500;
+}
+
